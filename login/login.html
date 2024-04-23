@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>Login Muvi</title>
+</head>
+<body>
+  <!--background-->
+  <div class="noise-bg flex items-center justify-center">
+  <!--formulario login/registro-->
+  <div class="form">
+    
+    <!--login-->
+    <form class="login-form" action="" method="post">
+      <i class="fas fa-user-circle"></i>
+      <input class="user-input" type="text" name="" placeholder="Usuario" required>
+      <input class="user-input" type="password" name="" placeholder="Contraseña" required>
+      <div class="options-01">
+        <label class="remember-me"><input type="checkbox" name="">Recuerdame</label>
+        <a href="#">Olvidaste tu contraseña?</a>
+      </div>
+      <input class="btn" type="submit" name="" value="ENTRAR">
+      <div class="options-02">
+        <p>No estás registrado? <a href="#">Create una cuenta</a></p>
+      </div>
+    </form>
+
+    <!--form registro-->
+    <form class="signup-form" action="" method="post">
+      <i class="fas fa-user-plus"></i>
+      <input class="user-input" type="text" name="" placeholder="Usuario" required>
+      <input class="user-input" type="email" name="" placeholder="Email" required>
+      <input class="user-input" type="password" name="" placeholder="Contraseña" required>
+      <input class="btn" type="submit" name="" value="REGISTRARSE">
+      <div class="options-02">
+        <p>Ya tenes cuenta? <a href="#">Logeate!</a></p>
+      </div>
+    </form>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
